@@ -122,3 +122,8 @@ def readModule():
             print("Invalid input")
 
     return n
+
+def readCommands():
+
+    rez = input("Write your commands (add <num1> <num2>, delete <numIndex>, sum <seqIndex1> <seqIndex2>, undo, show, stop):")
+    return rez
